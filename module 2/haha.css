@@ -1,0 +1,95 @@
+
+  
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align:center;
+  font-size:40px;
+  text-shadow:1px 1px 2px #000000;
+  
+}
+section{
+	border :1px solid black;
+	margin:5px;
+	padding:5px;
+	background-color:#800080;
+	
+}
+.allign {
+   position:relative;
+   float:right;
+   border :1px solid black;
+   background-color: #ccc;
+   font-weight:bold;
+   font-size:30px;
+  }
+#h2{
+	background-color:#FFDAB9;
+}
+#h3{
+	background-color:#FDF5E6;
+}
+#h4{
+	background-color:#BC8F8F;
+}
+
+p {
+  width: 90%;
+  text-align:left;
+  margin:0;
+  font-family: Helvetica;
+  color: black;
+  padding-left:0;
+  margin-top:30px;
+  font-size:20px
+}
+#p1{
+	background-color:#6A5ACD;
+}
+#p2{
+	background-color:#DB7093;
+}
+#p3{
+	background-color:#DDA0DD;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width:100%;
+}
+
+/*** Desktop***/
+@media screen and (min-width:992px) {
+   .col-lg-4 {
+    float:left;
+	width:33.33%;
+	
+    
+  }
+}
+
+/*** Tablet ***/
+@media screen and (min-width:768px) and (max-width:991px) {
+  .col-md-6{
+    float:left;
+	width:50%;	
+    }
+  
+  .col-md-12 {
+    float:left ;
+	width:100%;
+  }
+}
+/*** Mobiles ***/
+@media (max-width:767px) {
+   .col-s-12 {
+     width:100%;
+     float:left;
+      }
+}
+
+</style>
